@@ -1,27 +1,33 @@
 # GunSimulator
 
-##This is a data management system for a shooting range that allows users to insert and retrieve data about shooting scenarios, shooters, and shots fired. It is built using C# and SQLite.
 
-Features
-Insert and retrieve data about shooting scenarios, including scenario name and date created.
-Insert and retrieve data about shooters, including shooter name and age.
-Insert and retrieve data about shots fired, including shooter ID, scenario ID, and number of hits.
-User-friendly GUI with input validation.
-Data stored in an SQLite database for easy retrieval and management.
-Requirements
-.NET Framework 4.7.2 or later
-SQLite database engine
-Installation
-Download or clone the repository.
-Open the solution file (ShootingRangeDataManagementSystem.sln) in Visual Studio.
-Build the solution.
-Ensure that the SQLite database engine is installed on your system. If not, download and install it from the official website.
-Run the application from Visual Studio or navigate to the bin\Debug folder and run the ShootingRangeDataManagementSystem.exe file.
-Usage
-Launch the application.
-Use the tabs at the top to navigate to the desired functionality (inserting shooters, scenarios, or shots fired).
-Fill out the required fields and click the "Submit" button to insert data into the database.
-Use the search functionality to retrieve data from the database.
-Use the "Export" button to export data to a CSV file.
-Contributing
-This project is not currently accepting contributions, but feel free to fork the repository and make your own modifications
+This is a Windows desktop application that allows users to track shooting results for different scenarios and shooters.
+
+## Features
+
+- Add new shooters with their ASM (Armscor Sportiva Magnum) numbers
+- Add new shooting scenarios
+- Record shooting results for a specific shooter and scenario
+- View shooting results in a table format
+- Export shooting results to a CSV file
+
+## Technologies Used
+
+- C# programming language
+- .NET Framework
+- Windows Forms for the GUI
+- SQLite for the database
+- Visual Studio for development
+
+## Installation
+
+1. Clone or download the repository to your local machine
+2. Open the solution file in Visual Studio
+3. Build and run the application
+
+## Usage
+
+1. Add new shooters and scenarios in the respective forms
+2. Enter shooting results for a specific shooter and scenario in the "Insert Results" form
+3. View shooting results in the "View Results" form
+4. Export shooting results to a CSV file using the "Export" button in the "View Results" form
